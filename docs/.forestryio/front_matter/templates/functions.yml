@@ -1,0 +1,215 @@
+---
+pages:
+- functions/with.md
+- functions/where.md
+- functions/urlize.md
+- functions/upper.md
+- functions/uniq.md
+- functions/union.md
+- functions/truncate.md
+- functions/trim.md
+- functions/title.md
+- functions/time.md
+- functions/substr.md
+- functions/string.md
+- functions/split.md
+- functions/sort.md
+- functions/slicestr.md
+- functions/slice.md
+- functions/singularize.md
+- functions/shuffle.md
+- functions/sha.md
+- functions/seq.md
+- functions/safeURL.md
+- functions/safeJS.md
+- functions/safeHTMLAttr.md
+- functions/safeHTML.md
+- functions/safeCSS.md
+- functions/replacere.md
+- functions/replace.md
+- functions/render.md
+- functions/relref.md
+- functions/relurl.md
+- functions/relLangURL.md
+- functions/ref.md
+- functions/readfile.md
+- functions/readdir.md
+- functions/range.md
+- functions/querify.md
+- functions/printf.md
+- functions/pluralize.md
+- functions/plainify.md
+- functions/partialCached.md
+- functions/now.md
+- functions/ne.md
+- functions/md5.md
+- functions/markdownify.md
+- functions/lt.md
+- functions/lower.md
+- functions/len.md
+- functions/le.md
+- functions/last.md
+- functions/NumFmt.md
+- functions/jsonify.md
+- functions/isset.md
+- functions/intersect.md
+- functions/int.md
+- functions/index-function.md
+- functions/in.md
+- functions/i18n.md
+- functions/humanize.md
+- functions/htmlUnescape.md
+- functions/htmlEscape.md
+- functions/highlight.md
+- functions/hasPrefix.md
+- functions/gt.md
+- functions/getenv.md
+- functions/ge.md
+- functions/first.md
+- functions/findRe.md
+- functions/eq.md
+- functions/emojify.md
+- functions/echoparam.md
+- functions/dict.md
+- functions/delimit.md
+- functions/default.md
+- functions/dateformat.md
+- functions/countwords.md
+- functions/countrunes.md
+- functions/chomp.md
+- functions/base64.md
+- functions/apply.md
+- functions/after.md
+- functions/absurl.md
+- functions/abslangurl.md
+- functions/math.md
+- functions/_index.md
+- functions/unix.md
+- functions/scratch.md
+- functions/param.md
+- functions/ismenucurrent.md
+- functions/hasmenucurrent.md
+- functions/haschildren.md
+- functions/GetPage.md
+- functions/get.md
+- functions/format.md
+- functions/adddate.md
+- functions/imageConfig.md
+hide_body: false
+fields:
+- name: linktitle
+  label: Linktitle
+  type: text
+  hidden: false
+  default: ''
+- name: description
+  label: Description
+  type: textarea
+  hidden: false
+  default: ''
+- name: godocref
+  label: Godocref
+  type: text
+  hidden: false
+  default: ''
+- name: date
+  label: Date
+  type: datetime
+  hidden: false
+  default: ''
+- name: publishdate
+  label: Publishdate
+  type: datetime
+  hidden: false
+  default: ''
+- name: lastmod
+  label: Lastmod
+  type: datetime
+  hidden: false
+  default: ''
+- name: categories
+  label: Categories
+  type: tag_list
+  hidden: false
+  default:
+  - functions
+- name: signature
+  label: Signature
+  type: list
+  hidden: false
+  default: []
+- name: workson
+  label: Workson
+  type: list
+  hidden: false
+  default: []
+- name: hugoversion
+  label: Hugoversion
+  type: text
+  hidden: false
+  default: ''
+- name: relatedfuncs
+  label: Relatedfuncs
+  type: list
+  hidden: false
+  default: []
+- name: deprecated
+  label: Deprecated
+  type: boolean
+  hidden: false
+  default: false
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: type
+  label: Type
+  type: text
+  hidden: false
+  default: ''
+- name: aliases
+  label: Aliases
+  type: list
+  hidden: false
+  default: []
+- name: toc
+  label: Toc
+  type: boolean
+  hidden: false
+  default: false
+- name: needsexample
+  label: Needsexample
+  type: boolean
+  hidden: false
+  default: ''
+- name: weight
+  label: Weight
+  type: text
+  hidden: false
+  default: ''
+- name: qref
+  label: Qref
+  type: text
+  hidden: false
+  default: ''
+- name: needsexamples
+  label: Needsexamples
+  type: boolean
+  hidden: false
+  default: ''
+- name: comments
+  label: Comments
+  type: text
+  hidden: false
+  default: ''
+- name: tags
+  label: Tags
+  type: list
+  hidden: false
+  default: []
+- name: ns
+  label: Ns
+  type: text
+  hidden: false
+  default: ''
